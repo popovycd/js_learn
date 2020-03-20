@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Functions</title>
+</head>
+<body>
+<h1>The onclick Event</h1>
+<!-- <button onclick="(function(){console.log('message in console')})()">Click me</button> -->
+<button onclick="(function(){
+  'use strict';
+  document.addEventListener('click',() => {console.log('message in console')});
+})();">Click me</button>
+<script src="06.functions.js"></script>
+</body>
+</html>
