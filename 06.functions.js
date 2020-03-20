@@ -48,7 +48,7 @@ function comp(x,y){
 
 //в index.html есть обработка события по нажатию кнопки
 console.log('Task 3 check result in index.html');
-if (!global){
+if (1!=1){
   (function(){
     'use strict';
     document.addEventListener('click',() => {console.log('message in console')});
